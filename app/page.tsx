@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-screen flex flex-col items-center justify-center bg-[url('https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069')] bg-cover bg-center">
+      <section className="relative h-screen flex flex-col items-center justify-center bg-[url('https://i.ibb.co/HpdjJJZD/blind-man-reading-braille.jpg')] bg-cover bg-center">
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 flex-1 flex flex-col items-center justify-center">
           <div>
