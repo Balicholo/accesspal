@@ -9,8 +9,8 @@ import { Menu } from "lucide-react";
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'MoyoTools - Business Management Solutions',
-  description: 'Integrated suite of CRM, Sales, and Accounting tools for modern businesses',
+  title: 'AccessPal - Voice powered Assistant',
+  description: 'Empowering the visually impaired and tech illiterate navigating the digital world with accessible tech',
 };
 
 export default function RootLayout({
