@@ -265,8 +265,8 @@ export default function Home() {
           <h2 className="text-4xl font-bold text-center mb-16">Trusted Integrations</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center opacity-70">
             <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" className="h-12" />
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Mailchimp_Logo-Horizontal_Black.svg/2560px-Mailchimp_Logo-Horizontal_Black.svg.png" alt="Mailchimp" className="h-8" />
-            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Quickbooks_new_logo.svg" alt="QuickBooks" className="h-8" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/PayPal_logo.svg" alt="Mailchimp" className="h-8" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/PayPal_logo.svg" alt="QuickBooks" className="h-8" />
             <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/PayPal_logo.svg" alt="PayPal" className="h-8" />
           </div>
         </div>
@@ -278,13 +278,13 @@ export default function Home() {
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-4">Stay Updated</h2>
             <p className="mb-8">Get the latest updates and exclusive tips directly in your inbox.</p>
-            <div className="flex gap-4 max-w-md mx-auto">
+            <div className="flex flex-wrap gap-4 max-w-md mx-auto">
               <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-1 px-4 py-2 rounded-md text-foreground"
+              type="email"
+              placeholder="Enter your email"
+              className="flex-1 px-4 py-2 rounded-md text-foreground"
               />
-              <Button variant="secondary">Subscribe</Button>
+              <Button variant="secondary" className="w-full sm:w-auto">Subscribe</Button>
             </div>
           </div>
         </div>
