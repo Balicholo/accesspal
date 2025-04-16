@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger, SheetTitle, SheetClose } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
 
 const inter = Inter({ subsets: ['latin'] });
@@ -25,7 +25,7 @@ export default function RootLayout({
           <div className="container mx-auto px-6 py-4">
             <div className="flex items-center justify-between">
               <Link href="/" className="text-xl font-bold">
-                MoyoTools
+                AccessPal
               </Link>
               
               {/* Desktop Navigation */}
@@ -52,24 +52,30 @@ export default function RootLayout({
                 <SheetContent side="right" className="w-[300px] sm:w-[400px]">
                   <SheetTitle>Menu</SheetTitle>
                   <nav className="flex flex-col gap-4">
-                    <Link 
-                      href="/#features" 
-                      className="block py-2 text-lg hover:text-primary transition-colors"
-                    >
-                      Features
-                    </Link>
-                    <Link 
-                      href="/#about" 
-                      className="block py-2 text-lg hover:text-primary transition-colors"
-                    >
-                      About
-                    </Link>
-                    <Link 
-                      href="/#contact" 
-                      className="block py-2 text-lg hover:text-primary transition-colors"
-                    >
-                      Contact
-                    </Link>
+                    <SheetClose asChild>
+                      <Link 
+                        href="/#features" 
+                        className="block py-2 text-lg hover:text-primary transition-colors"
+                      >
+                        Features
+                      </Link>
+                    </SheetClose>
+                    <SheetClose asChild>
+                      <Link 
+                        href="/#about" 
+                        className="block py-2 text-lg hover:text-primary transition-colors"
+                      >
+                        About
+                      </Link>
+                    </SheetClose>
+                    <SheetClose asChild>
+                      <Link 
+                        href="/#contact" 
+                        className="block py-2 text-lg hover:text-primary transition-colors"
+                      >
+                        Contact
+                      </Link>
+                    </SheetClose>
                     <Button className="mt-4">Get Started</Button>
                   </nav>
                 </SheetContent>
