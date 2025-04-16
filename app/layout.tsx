@@ -24,9 +24,9 @@ export default function RootLayout({
         <nav className="fixed w-full bg-background/80 backdrop-blur-sm z-50 border-b">
           <div className="container mx-auto px-6 py-4">
             <div className="flex items-center justify-between">
-              <Link href="/" className="text-xl font-bold">
+                <Link href="/" className="text-xl font-bold text-teal-900">
                 AccessPal
-              </Link>
+                </Link>
               
               {/* Desktop Navigation */}
               <div className="hidden md:flex items-center space-x-8">
