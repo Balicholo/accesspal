@@ -51,7 +51,7 @@ export default function RootLayout({
                 </SheetTrigger>
                 <SheetContent side="right" className="w-[300px] sm:w-[400px]">
                   <SheetTitle>Menu</SheetTitle>
-                  <nav className="flex flex-col gap-4">
+                  <nav className="flex flex-col gap-4 pt-20">
                     <SheetClose asChild>
                       <Link 
                         href="/#features" 

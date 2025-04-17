@@ -158,49 +158,49 @@ export default function Home() {
 
       {/* Testimonials Section */}
       <section className="py-20 bg-background">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center mb-16 text-teal-900">Impactful testimonials for AccessPal</h2>
-          <Carousel className="w-full max-w-full mx-auto overflow-hidden">
+        <div className="container mx-auto px-4 sm:px-6">
+          <h2 className="text-3xl sm:text-4xl font-bold text-center mb-16 text-teal-900">Impactful testimonials for AccessPal</h2>
+          <Carousel className="w-full max-w-5xl mx-auto">
             <CarouselContent>
               <CarouselItem>
-                <div className="text-center px-8">
+                <div className="text-center px-4 sm:px-8">
                   <img
                     src="https://i.ibb.co/XkvJDv5p/sided-view-woman-wearing-sunglasses.jpg"
-                    alt="Tendai M."
+                    alt="Sarah Johnson"
                     className="w-20 h-20 rounded-full mx-auto mb-6 object-cover"
                   />
-                  <p className="text-xl italic mb-6">"AccessPal gave me back my independence. I can now navigate my phone and send money to my family without anyone's help. It speaks my local language, and that's a game-changer!"</p>
+                  <p className="text-lg sm:text-xl italic mb-6">"AccessPal gave me back my independence. I can now navigate my phone and send money to my family without anyone's help. It speaks my local language, and that's a game-changer!"</p>
                   <h4 className="font-semibold text-teal-900">Tendai M</h4>
                   <p className="text-muted-foreground">Zimbabwe council of the Blind</p>
                 </div>
               </CarouselItem>
               <CarouselItem>
-                <div className="text-center px-8">
+                <div className="text-center px-4 sm:px-8">
                   <img
                     src="https://i.ibb.co/KpFGqYZ5/medium-shot-senior-black-woman-posing.jpg"
-                    alt="Mrs. Eunice D."
+                    alt="David Chen"
                     className="w-20 h-20 rounded-full mx-auto mb-6 object-cover"
                   />
-                  <p className="text-xl italic mb-6">"In our rural community, many people struggle with smartphones. AccessPal has been a bridge—especially for elders and the visually impaired. It's inclusive, affordable, and built for us"</p>
-                  <h4 className="font-semibold text-teal-900">Mrs. Eunice D.</h4>
+                  <p className="text-lg sm:text-xl italic mb-6">"In our rural community, many people struggle with smartphones. AccessPal has been a bridge—especially for elders and the visually impaired. It's inclusive, affordable, and built for us"</p>
+                  <h4 className="font-semibold">Mrs. Eunice D.</h4>
                   <p className="text-muted-foreground">Community Health Worker, Mutare</p>
                 </div>
               </CarouselItem>
               <CarouselItem>
-                <div className="text-center px-8">
+                <div className="text-center px-4 sm:px-8">
                   <img
                     src="https://i.ibb.co/wZjpKByN/shallow-focus-shot-young-black-male-grey-wall.jpg"
                     alt="Emma Rodriguez"
                     className="w-20 h-20 rounded-full mx-auto mb-6 object-cover"
                   />
-                  <p className="text-xl italic mb-6">"My father couldn't use a phone before AccessPal. Now, with just his voice, he's sending voice messages, checking news, and even paying bills. It's made life easier for our whole family"</p>
-                  <h4 className="font-semibold text-teal-900">Brighton S</h4>
+                  <p className="text-lg sm:text-xl italic mb-6">"My father couldn't use a phone before AccessPal. Now, with just his voice, he's sending voice messages, checking news, and even paying bills. It's made life easier for our whole family"</p>
+                  <h4 className="font-semibold">Brighton S</h4>
                   <p className="text-muted-foreground">Chitungwiza</p>
                 </div>
               </CarouselItem>
             </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
+            <CarouselPrevious className="hidden sm:flex" />
+            <CarouselNext className="hidden sm:flex" />
           </Carousel>
         </div>
       </section>
@@ -314,7 +314,7 @@ export default function Home() {
       <section className="py-20 bg-background">
         <div className="container mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto">
-            <h2 className="text-4xl font-bold mb-6 text-teal-900">Be Part of the Change — Try AccessPal Now</h2>
+            <h2 className="text-4xl font-bold mb-6 text-teal-900">Be Part of the Change Try AccessPal Now</h2>
             <p className="text-xl text-muted-foreground mb-8">
               Simple. Local. Powerful. Start your journey to digital independence
             </p>
@@ -372,16 +372,16 @@ export default function Home() {
             <div>
               <h3 className="text-xl font-semibold mb-4">AccessPal</h3>
               <p className="text-primary-foreground/80">
-                Empowering businesses with integrated solutions.
+                Empowering the visually impaired and tech-illiterate navigate the digital world with accessible technology.
               </p>
             </div>
             <div>
-              <h4 className="text-lg font-semibold mb-4">Products</h4>
+              <h4 className="text-lg font-semibold mb-4">Features</h4>
               <ul className="space-y-2">
                 <li>Voice-commands</li>
-                <li>Local Languge</li>
-                <li>Accounting</li>
-                <li>Accounting</li>
+                <li>Local Languges</li>
+                <li>Navigation</li>
+                <li>Transactions</li>
               </ul>
             </div>
             <div>

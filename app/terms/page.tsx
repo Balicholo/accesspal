@@ -16,7 +16,7 @@ export default function TermsOfUse() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">2. Use License</h2>
             <p className="text-muted-foreground mb-4">
-              MoyoTools grants you a limited, non-exclusive, non-transferable license to access and use our services for your business purposes.
+              AccessPal grants you a limited, non-exclusive, non-transferable license to access and use our services for your business purposes.
             </p>
           </section>
 
@@ -33,7 +33,7 @@ export default function TermsOfUse() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">4. Intellectual Property</h2>
             <p className="text-muted-foreground mb-4">
-              All content, features, and functionality of MoyoTools are owned by us and protected by international copyright, trademark, and other intellectual property laws.
+              All content, features, and functionality of AccessPal are owned by us and protected by international copyright, trademark, and other intellectual property laws.
             </p>
           </section>
         </div>
