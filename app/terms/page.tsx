@@ -9,7 +9,7 @@ export default function TermsOfUse() {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">1. Acceptance of Terms</h2>
             <p className="text-muted-foreground mb-4">
-              By accessing and using MoyoTools, you accept and agree to be bound by the terms and provisions of this agreement.
+              By accessing and using AccessPal, you accept and agree to be bound by the terms and provisions of this agreement.
             </p>
           </section>
 
